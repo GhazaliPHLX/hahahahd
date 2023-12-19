@@ -1,0 +1,204 @@
+body {
+    background-color: rgb(72, 144, 180);
+    margin: 0;
+
+
+}
+h1 {
+    text-align: center;
+    color: beige;
+}
+#daftar {
+    text-decoration: none;
+    color: black;
+}
+.deskripsi {
+    font-size: 14px;
+    color: rgb(223, 223, 255);
+
+}
+
+span { 
+    text-align: center;
+
+}
+.deskripsi_bahan{
+    color: rgb(14, 15, 15);
+    font-size: 14px;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-color: rgb(33, 53, 46);
+}
+table, tr,td {
+    border: 2px solid rgb(18, 41, 33);
+}
+
+th { 
+    padding: 6px 0 6px 0;
+    background-color: salmon;
+}
+.content {
+    text-align: center;
+}
+.bahan {
+    padding-left: 10px;
+    
+}
+td {
+    background-color: rgb(157, 196, 14);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: navy;
+    color: white;
+    padding: 36px 30px;
+    margin: 30px 0 0 0;
+    padding-right: 60px;
+}
+
+main {
+    padding: 30px;
+    width: 60vw;
+    margin: 0px auto 0 auto;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(149, 187, 236, 0.4), rgba(0, 0, 0, 0.0));
+    border-radius: 24px;
+}
+
+
+ul, ol {
+    list-style: none;
+
+}
+
+ul,li,a ol,li,a {
+    color: white;
+}
+
+ul,li ,ol,li {
+    margin-bottom: 4px;
+}
+.brand  {
+    display: flex;
+font-size: 30px;
+gap: 10px;
+justify-content: center;
+align-items: start;
+
+}
+
+.brand p {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+.gambar {
+width: fit-content;
+margin: auto;
+border-radius: 24px;
+overflow: hidden;
+}
+#daftar span {
+    background-color: blue;
+    padding: 10px 14px;
+    border-radius: 14px;
+    color: white;
+
+}
+/* ntar dibenerin lagi */
+#daftar span :hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.gambar img:hover {
+    transform: scale(1.05);
+    transition: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out ;
+}
+tr {
+    background-color: burlywood;
+}
+tr :hover {
+    background-color: gray;
+}
+
+.garis {
+    width: 100% ;
+    height: 1px ;
+    background-color: black;
+
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding:20px 0;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+
+}
+
+header nav ul li a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+header nav ul li a:hover{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 4px;
+}
+/* ntar dibenerin */
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+.jarak {
+    height: 100px;
+}
+
+@media (max-width: 540px){
+
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+    .jarak {
+        height: 160px;
+
+    }
+    main {
+        width: 75vw;
+    }
+    h1 {
+        margin: 0 0 30px 0;
+    }
+    .daftar_div  {
+        text-align: center;
+    }
+    .gambar img {
+        width: 100%;
+    }
+    footer {
+       flex-direction: column;
+       gap: 20px;
+    }
+    header nav ul {
+        padding: 0;
+    }
+}

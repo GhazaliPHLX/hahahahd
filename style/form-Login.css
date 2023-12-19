@@ -1,0 +1,94 @@
+body {
+    /* background-color: rgb(175, 199, 158); */
+    padding: 30px;
+    width: 60vw;
+    margin: 30px auto 20px auto;
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(90, 156, 243, 0.4), rgba(0, 0, 0, 0.0)); */
+    /* border-radius: 24px; */
+    /* background-image: url('/Image/1293302.jpg');
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px); */
+   
+}
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+    .inp, select, textarea, button {
+        width: 100%;
+        border-radius: 10px;
+        padding-left: 10px;
+        margin: 5px ;
+        box-sizing: border-box;
+    
+    
+    }
+
+
+button {
+    width: 100%;
+    padding-top: 5px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+
+
+}
+.content-box{
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.haldep {
+    padding: 30px;
+    width: 60vw;
+    margin: 30px auto 20px auto;
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(163, 246, 160, 0.4), rgba(0, 0, 0, 0.0)); */
+    border-radius: 24px;
+    position: relative; 
+    /* background: color(rgba 255 255 255 0.4); */
+}
+.background-cntr {
+    /* border-radius: 24px; */
+    background-image: url('/Image/1293302.jpg');
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    overflow-y: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: black;
+}
+
+/* Media Query Styles */
+@media (max-width: 540px) {
+
+
+    .formulir {
+        width: 75vw;
+    }
+
+    h1 {
+        margin: 0 0 15px 0;
+        font-size: 25px;
+    }
+    .background-cntr {
+        position: fixed;
+    }
+}

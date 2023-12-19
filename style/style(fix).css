@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+    background-color: rgb(72, 144, 180);
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+header nav ul li a:hover {
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 30px;
+    width: 60vw;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(149, 187, 236, 0.4), rgba(0, 0, 0, 0.0));
+    border-radius: 24px;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: navy;
+    color: white;
+    padding: 36px 30px;
+    margin: 30px 0 0 0;
+    padding-right: 60px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Common Styles */
+ul, ol {
+    list-style: none;
+}
+
+ul li a, ol li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li, ol li {
+    margin-bottom: 4px;
+}
+
+/* Brand Styles */
+.brand {
+    display: flex;
+    font-size: 30px;
+    gap: 10px;
+    justify-content: center;
+    align-items: start;
+}
+
+.brand p {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Link Styles */
+a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+/* Image Styles */
+.gambar {
+    width: fit-content;
+    margin: auto;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.gambar img:hover {
+    transform: scale(1.05);
+    transition: all 300ms ease-in-out;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: rgb(33, 53, 46);
+}
+
+table, tr, td {
+    border: 2px solid rgb(18, 41, 33);
+}
+
+th {
+    padding: 6px 0;
+    background-color: salmon;
+}
+
+td {
+    background-color: rgb(157, 196, 14);
+}
+
+/* Specific Styles */
+.bahan {
+    padding-left: 10px;
+}
+
+.deskripsi, .deskripsi_bahan {
+    font-size: 14px;
+}
+
+span, .content {
+    text-align: center;
+}
+
+/* Line Styles */
+.garis {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+/* Media Query Styles */
+@media (max-width: 540px) {
+    header nav ul {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+
+    .jarak {
+        height: 160px;
+    }
+
+    main {
+        width: 75vw;
+    }
+
+    h1 {
+        margin: 0 0 30px 0;
+    }
+
+    .daftar_div {
+        text-align: center;
+    }
+
+    .gambar img {
+        width: 100%;
+    }
+}

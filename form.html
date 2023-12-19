@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="formulir">
+    <h1>Isi Biodata</h1>
+    <br/>
+    <form action="">
+        
+        <label for="nama">Nama</label><br>
+        <input required class="inp" type="text" id="nama" name="nama" placeholder="Masukkan nama">
+        <br/>
+        <label for="umur">Umur</label><br>
+        <input required class="inp" type="number" id="umur" name="umur" placeholder="Masukkan umur">
+        <br/>
+        <label for="email">Email</label><br>
+        <input required class="inp" type="email" id="email" name="Email" placeholder="Masukkan Email">
+        <br/>
+        <label for="password">Password</label><br>
+        <input required class="inp" type="password" id="password" name="password" placeholder="Masukkan password">
+        <br/>
+        <label for="ttl">Tanggal Lahir</label><br>
+        <input required class="inp" type="date" id="ttl" name="ttl" >
+        <br/>
+        <label for="pekerjaan">Pekerjaan</label>
+        <select name="pekerjaan" id="pekerjaan">
+            <option value="pelajar">Pelajar</option>
+            <option value="mahasisa">Mahasiswa</option>
+            <option value="guru">Guru</option>
+            <option value="petani">Petani</option>
+        </select>
+        <br/>
+        <p>Hobby:</p>
+        <input required id="makan" name="Hobby" type="radio">
+        <label for="">Makan</label>
+        <input required id="gambar" name="Hobby" type="radio">
+        <label for="gambar">Menggambar</label>
+        <input required id="gambar" name="Hobby" type="radio">
+        <label for="olahraga">Olahraga</label>
+
+        <p>Hal yang disukai</p>
+        <input required type="checkbox" name="suka" id="hewan">
+        <label for="hewan">Hewan</label>
+        <input required type="checkbox" name="suka" id="bunga">
+        <label for="bunga">Bunga</label>
+        <input required type="checkbox" name="suka" id="game">
+        <label for="game">Game</label>
+        <br/>
+        <textarea name="komentar" id="komentar" cols="30" rows="10" required>Masukkan Komentar</textarea>
+        <br/>
+        <button type="submit">Kirim </button>
+        <br/>
+
+
+
+
+
+        </form>
+    </div>
+</body>
+</html>
